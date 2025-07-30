@@ -1,11 +1,12 @@
 <img src="images/rl-chunk.png" alt="RL Chunk logo" width="300"/>
 
+<hr>
+
 # 📚 Reinforcement Learning + LLM Pipeline for Chunk Selection and Response Generation
 
 This repository contains a complete pipeline to train reinforcement learning agents for text chunk selection, apply large language models (LLMs) for response generation, and evaluate the quality of those responses using various metrics.
 
 🧠 This project is model-agnostic — it works with any LLM to improve its results through smarter input selection.
-<hr>
 
 ---
 
