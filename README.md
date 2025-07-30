@@ -1,3 +1,4 @@
+<img src="images/rl-chunk.png" alt="RL Chunk logo" width="300"/>
 
 # 📚 Reinforcement Learning + LLM Pipeline for Chunk Selection and Response Generation
 
@@ -5,7 +6,6 @@ This repository contains a complete pipeline to train reinforcement learning age
 
 🧠 This project is model-agnostic — it works with any LLM to improve its results through smarter input selection.
 <hr>
-<img src="images/rl-chunk.png" alt="RL Chunk logo" width="300"/>
 
 ---
 
