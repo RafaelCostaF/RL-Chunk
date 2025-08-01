@@ -32,26 +32,14 @@ all_algorithms = {
     "ddpg": (DDPG, "MultiInputPolicy", True),
     "sac": (SAC, "MultiInputPolicy", True),
 }
-# def train_single_model(gpu_id, row_idx, sampled_file, base_dir):
-#     import torch
-#     import pandas as pd
-#     from stable_baselines3 import PPO, DDPG, SAC
-#     from sb3_contrib.ppo_recurrent import RecurrentPPO
-#     from stable_baselines3.common.monitor import Monitor
-#     from FixedChunkEnv import FixedChunkEnv
-#     from codecarbon import EmissionsTracker
-#     import os
-#     import time
 
-#     device = torch.device(f"cuda:{gpu_id}" if torch.cuda.is_available() else "cpu")
-#     torch.cuda.set_device(device)
 def train_single_model(gpu_id, row_idx, sampled_file, base_dir):
     import torch
     import pandas as pd
     from stable_baselines3 import PPO, DDPG, SAC
     from sb3_contrib.ppo_recurrent import RecurrentPPO
     from stable_baselines3.common.monitor import Monitor
-    from FixedChunkEnv import FixedChunkEnv
+    from RL_environment import FixedChunkEnvGranularReward as FixedChunkEnv
     from codecarbon import EmissionsTracker
     import os
     import time
