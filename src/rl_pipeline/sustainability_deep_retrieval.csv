@@ -1,0 +1,3 @@
+algo,inference_latency_s_mean,inference_latency_s_std,inference_latency_s_count,emissions_kg_co2_total_run,energy_kwh_total_run,wall_clock_time_s
+deep_retrieval_faiss_local_only,0.6641667456127667,0.24712115001998344,207,0.00015007443228520282,0.0015259530675275838,137.4825163418427
+deep_retrieval_bm25_local_only,0.06637053204259434,0.03312878314660669,207,6.06899493569485e-06,6.170938845421208e-05,13.73870013281703

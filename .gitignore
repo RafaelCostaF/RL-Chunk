@@ -1,0 +1,22 @@
+# Archived, superseded pipeline (old notebooks/scripts/data) - not used by
+# the current code, and contains local credentials/API keys that must never
+# be published.
+src/legacy/
+
+# Local on-disk caches (LLM response cache, spaCy similarity cache) -
+# machine-specific, not needed to reproduce results, and can be large.
+src/rl_pipeline/.llm_cache/
+src/rl_pipeline/.spacy_cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# These exceed GitHub's 100MB per-file limit. Each is split into <100MB,
+# independently-loadable row chunks tracked under the sibling
+# "<filename>.parts/" directory instead - see reassemble_split_files.py.
+src/tables/dataset_with_metrics.csv
+src/rl_pipeline_run/3_results/text_metrics_per_row.parquet
+src/rl_pipeline_run/2_responses.parquet
+src/rl_pipeline_run/1_inference.parquet
+src/datasets/sampled_50_per_domain.parquet

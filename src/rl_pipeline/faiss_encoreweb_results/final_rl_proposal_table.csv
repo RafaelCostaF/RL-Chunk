@@ -1,0 +1,101 @@
+domain,metric
+finance,ROUGE-L F1
+finance,ROUGE-L F1 (desvio padrao)
+finance,BLEU-4
+finance,BLEU-4 (desvio padrao)
+finance,BERTScore F1
+finance,BERTScore F1 (desvio padrao)
+finance,Cosine Similarity
+finance,Cosine Similarity (desvio padrao)
+finance,Faithfulness
+finance,Faithfulness (desvio padrao)
+finance,Answer Relevancy
+finance,Answer Relevancy (desvio padrao)
+finance,Answer Correctness
+finance,Answer Correctness (desvio padrao)
+finance,Context Precision
+finance,Context Precision (desvio padrao)
+finance,Context Recall
+finance,Context Recall (desvio padrao)
+finance,mean_chunks_selected
+finance,mean_chunks_selected (desvio padrao)
+movie,ROUGE-L F1
+movie,ROUGE-L F1 (desvio padrao)
+movie,BLEU-4
+movie,BLEU-4 (desvio padrao)
+movie,BERTScore F1
+movie,BERTScore F1 (desvio padrao)
+movie,Cosine Similarity
+movie,Cosine Similarity (desvio padrao)
+movie,Faithfulness
+movie,Faithfulness (desvio padrao)
+movie,Answer Relevancy
+movie,Answer Relevancy (desvio padrao)
+movie,Answer Correctness
+movie,Answer Correctness (desvio padrao)
+movie,Context Precision
+movie,Context Precision (desvio padrao)
+movie,Context Recall
+movie,Context Recall (desvio padrao)
+movie,mean_chunks_selected
+movie,mean_chunks_selected (desvio padrao)
+open,ROUGE-L F1
+open,ROUGE-L F1 (desvio padrao)
+open,BLEU-4
+open,BLEU-4 (desvio padrao)
+open,BERTScore F1
+open,BERTScore F1 (desvio padrao)
+open,Cosine Similarity
+open,Cosine Similarity (desvio padrao)
+open,Faithfulness
+open,Faithfulness (desvio padrao)
+open,Answer Relevancy
+open,Answer Relevancy (desvio padrao)
+open,Answer Correctness
+open,Answer Correctness (desvio padrao)
+open,Context Precision
+open,Context Precision (desvio padrao)
+open,Context Recall
+open,Context Recall (desvio padrao)
+open,mean_chunks_selected
+open,mean_chunks_selected (desvio padrao)
+sports,ROUGE-L F1
+sports,ROUGE-L F1 (desvio padrao)
+sports,BLEU-4
+sports,BLEU-4 (desvio padrao)
+sports,BERTScore F1
+sports,BERTScore F1 (desvio padrao)
+sports,Cosine Similarity
+sports,Cosine Similarity (desvio padrao)
+sports,Faithfulness
+sports,Faithfulness (desvio padrao)
+sports,Answer Relevancy
+sports,Answer Relevancy (desvio padrao)
+sports,Answer Correctness
+sports,Answer Correctness (desvio padrao)
+sports,Context Precision
+sports,Context Precision (desvio padrao)
+sports,Context Recall
+sports,Context Recall (desvio padrao)
+sports,mean_chunks_selected
+sports,mean_chunks_selected (desvio padrao)
+music,ROUGE-L F1
+music,ROUGE-L F1 (desvio padrao)
+music,BLEU-4
+music,BLEU-4 (desvio padrao)
+music,BERTScore F1
+music,BERTScore F1 (desvio padrao)
+music,Cosine Similarity
+music,Cosine Similarity (desvio padrao)
+music,Faithfulness
+music,Faithfulness (desvio padrao)
+music,Answer Relevancy
+music,Answer Relevancy (desvio padrao)
+music,Answer Correctness
+music,Answer Correctness (desvio padrao)
+music,Context Precision
+music,Context Precision (desvio padrao)
+music,Context Recall
+music,Context Recall (desvio padrao)
+music,mean_chunks_selected
+music,mean_chunks_selected (desvio padrao)

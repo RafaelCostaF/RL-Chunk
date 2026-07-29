@@ -1,0 +1,101 @@
+domain,metric,PPO,DDPG,Recurrent PPO,SAC
+finance,ROUGE-L F1,0.256113,0.205641,0.219769,0.231447
+finance,ROUGE-L F1 (desvio padrao),0.293875,0.244278,0.250086,0.279723
+finance,BLEU-4,0.083361,0.045418,0.050795,0.062534
+finance,BLEU-4 (desvio padrao),0.142695,0.077846,0.085843,0.103669
+finance,BERTScore F1,0.871945,0.864584,0.865370,0.864533
+finance,BERTScore F1 (desvio padrao),0.062534,0.063659,0.059691,0.062444
+finance,Cosine Similarity,0.592645,0.586658,0.565255,0.586176
+finance,Cosine Similarity (desvio padrao),0.372410,0.356717,0.372325,0.365877
+finance,Faithfulness,0.231000,0.190333,0.220000,0.182000
+finance,Faithfulness (desvio padrao),0.390825,0.362970,0.380118,0.360096
+finance,Answer Relevancy,0.781711,0.781711,0.781711,0.781711
+finance,Answer Relevancy (desvio padrao),0.221568,0.221568,0.221568,0.221568
+finance,Answer Correctness,0.985000,0.985000,0.985000,0.985000
+finance,Answer Correctness (desvio padrao),0.106066,0.106066,0.106066,0.106066
+finance,Context Precision,0.174649,0.132483,0.188444,0.100285
+finance,Context Precision (desvio padrao),0.277574,0.264900,0.318496,0.185103
+finance,Context Recall,0.447476,0.507266,0.435293,0.498553
+finance,Context Recall (desvio padrao),0.453376,0.475931,0.458795,0.482108
+finance,mean_chunks_selected,10.000000,8.000000,10.000000,10.000000
+finance,mean_chunks_selected (desvio padrao),0.000000,0.000000,0.000000,0.000000
+movie,ROUGE-L F1,0.327583,0.367476,0.367476,0.286644
+movie,ROUGE-L F1 (desvio padrao),0.376577,0.391781,0.391781,0.373358
+movie,BLEU-4,0.137542,0.172877,0.172877,0.132625
+movie,BLEU-4 (desvio padrao),0.253125,0.273995,0.273995,0.255832
+movie,BERTScore F1,0.877542,0.886708,0.886708,0.869827
+movie,BERTScore F1 (desvio padrao),0.071916,0.070544,0.070544,0.077750
+movie,Cosine Similarity,0.637158,0.717317,0.717317,0.660491
+movie,Cosine Similarity (desvio padrao),0.315249,0.266011,0.266011,0.298684
+movie,Faithfulness,0.340000,0.316667,0.316327,0.295000
+movie,Faithfulness (desvio padrao),0.441550,0.448290,0.452929,0.416908
+movie,Answer Relevancy,0.814272,0.814272,0.814272,0.814272
+movie,Answer Relevancy (desvio padrao),0.083920,0.083920,0.083920,0.083920
+movie,Answer Correctness,0.990000,0.990000,0.989796,0.989796
+movie,Answer Correctness (desvio padrao),0.049487,0.049487,0.049979,0.049979
+movie,Context Precision,0.223081,0.211120,0.217675,0.194428
+movie,Context Precision (desvio padrao),0.320195,0.336543,0.339750,0.325473
+movie,Context Recall,0.648607,0.605289,0.613687,0.513930
+movie,Context Recall (desvio padrao),0.422703,0.445396,0.444275,0.472854
+movie,mean_chunks_selected,10.000000,10.000000,10.000000,10.000000
+movie,mean_chunks_selected (desvio padrao),0.000000,0.000000,0.000000,0.000000
+open,ROUGE-L F1,0.521367,0.525165,0.507602,0.520592
+open,ROUGE-L F1 (desvio padrao),0.354057,0.334150,0.341090,0.352646
+open,BLEU-4,0.286158,0.245054,0.248796,0.255806
+open,BLEU-4 (desvio padrao),0.355708,0.331915,0.333183,0.331650
+open,BERTScore F1,0.918976,0.911105,0.911536,0.915834
+open,BERTScore F1 (desvio padrao),0.063280,0.062483,0.067921,0.064034
+open,Cosine Similarity,0.781672,0.799142,0.745645,0.787160
+open,Cosine Similarity (desvio padrao),0.295798,0.275242,0.337035,0.275676
+open,Faithfulness,0.503472,0.460000,0.516667,0.473333
+open,Faithfulness (desvio padrao),0.484377,0.493219,0.474103,0.484873
+open,Answer Relevancy,0.839656,0.854506,0.855217,0.855702
+open,Answer Relevancy (desvio padrao),0.154787,0.094500,0.093615,0.092578
+open,Answer Correctness,1.000000,0.994792,1.000000,1.000000
+open,Answer Correctness (desvio padrao),0.000000,0.036084,0.000000,0.000000
+open,Context Precision,0.367753,0.325362,0.328672,0.388567
+open,Context Precision (desvio padrao),0.358445,0.338352,0.315239,0.352861
+open,Context Recall,0.642612,0.598205,0.706345,0.711676
+open,Context Recall (desvio padrao),0.448439,0.415322,0.427034,0.400269
+open,mean_chunks_selected,10.000000,7.060000,10.000000,10.000000
+open,mean_chunks_selected (desvio padrao),0.000000,0.239898,0.000000,0.000000
+sports,ROUGE-L F1,0.329639,0.311297,0.328274,0.334804
+sports,ROUGE-L F1 (desvio padrao),0.377500,0.346913,0.387495,0.351418
+sports,BLEU-4,0.148133,0.129074,0.160562,0.149307
+sports,BLEU-4 (desvio padrao),0.283371,0.249936,0.290127,0.261325
+sports,BERTScore F1,0.877843,0.867740,0.881783,0.871344
+sports,BERTScore F1 (desvio padrao),0.076184,0.072623,0.079719,0.071819
+sports,Cosine Similarity,0.678903,0.631285,0.660216,0.646851
+sports,Cosine Similarity (desvio padrao),0.285337,0.303806,0.319145,0.308817
+sports,Faithfulness,0.427083,0.343333,0.403333,0.373333
+sports,Faithfulness (desvio padrao),0.494540,0.465852,0.471513,0.480410
+sports,Answer Relevancy,0.812353,0.817311,0.817079,0.817079
+sports,Answer Relevancy (desvio padrao),0.155655,0.148743,0.148569,0.148569
+sports,Answer Correctness,0.984043,0.973958,0.985000,0.985000
+sports,Answer Correctness (desvio padrao),0.109399,0.118047,0.106066,0.106066
+sports,Context Precision,0.268831,0.288885,0.274866,0.265728
+sports,Context Precision (desvio padrao),0.321535,0.362311,0.302810,0.323401
+sports,Context Recall,0.422455,0.577180,0.560417,0.549953
+sports,Context Recall (desvio padrao),0.458686,0.433357,0.464873,0.464063
+sports,mean_chunks_selected,10.000000,8.960000,10.000000,9.960000
+sports,mean_chunks_selected (desvio padrao),0.000000,0.282843,0.000000,0.282843
+music,ROUGE-L F1,0.406448,0.368525,0.427053,0.411257
+music,ROUGE-L F1 (desvio padrao),0.344758,0.366192,0.362213,0.364268
+music,BLEU-4,0.146731,0.146870,0.194946,0.178396
+music,BLEU-4 (desvio padrao),0.218161,0.253889,0.284434,0.279899
+music,BERTScore F1,0.900343,0.882815,0.896828,0.892829
+music,BERTScore F1 (desvio padrao),0.066518,0.074041,0.067239,0.071382
+music,Cosine Similarity,0.732897,0.669662,0.729384,0.707815
+music,Cosine Similarity (desvio padrao),0.290619,0.308192,0.276280,0.300418
+music,Faithfulness,0.510417,0.458333,0.401667,0.510000
+music,Faithfulness (desvio padrao),0.489133,0.494943,0.481427,0.489585
+music,Answer Relevancy,0.850730,0.861551,0.861516,0.861516
+music,Answer Relevancy (desvio padrao),0.154892,0.095124,0.095146,0.095146
+music,Answer Correctness,0.938776,0.929592,0.927500,0.940000
+music,Answer Correctness (desvio padrao),0.207481,0.214553,0.211424,0.205536
+music,Context Precision,0.240401,0.256924,0.222846,0.244959
+music,Context Precision (desvio padrao),0.275638,0.329000,0.287878,0.319995
+music,Context Recall,0.648611,0.594388,0.615789,0.591354
+music,Context Recall (desvio padrao),0.445132,0.440114,0.465951,0.444433
+music,mean_chunks_selected,10.000000,7.440000,10.000000,9.880000
+music,mean_chunks_selected (desvio padrao),0.000000,1.197957,0.000000,0.848528
